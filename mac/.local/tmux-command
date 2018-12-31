@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Arguments
+# 1: attach / new
+# 2: session number
+
+if [ -z $2 ]; then
+	COM="tmux -CC $1"
+else
+	COM="tmux -CC $1 -t $2"
+fi
+
+if [[ $myip =~ ^147\.46\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
+	ssh -t linux "$COM"
+else
+	ssh -t arcuser "ssh -t kc '$COM'"
+fi

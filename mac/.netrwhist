@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/GwonChun/.ssh'
+let g:netrw_dirhist_2='/Users/GwonChun/.local'
+let g:netrw_dirhist_3='/Users/GwonChun/svn/papers/pldi18_nn'
+let g:netrw_dirhist_4='/Users/GwonChun/.ssh'
+let g:netrw_dirhist_5='/Users/GwonChun/svn'
+let g:netrw_dirhist_6='/Users/GwonChun/svn/papers/pact18_nn'
+let g:netrw_dirhist_7='/Users/GwonChun/svn/papers/thesis18_ms_gwonchun'
+let g:netrw_dirhist_8='/Users/GwonChun/svn/papers/thesis18_ms_namho'
